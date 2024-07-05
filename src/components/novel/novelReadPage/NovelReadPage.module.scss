@@ -1,0 +1,38 @@
+/* NovelReadPage.module.scss */
+
+.novelReadPage {
+    display: flex;
+    height: 85vh;
+    width: 100%;
+}
+
+.novelContentPanel {
+    flex: 3;
+    padding: 20px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+
+.novelSettingsPanel {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+}
+
+.novelContent {
+    white-space: pre-wrap;
+    /* Add more styles as needed */
+}
+
+.dark .novelContentPanel {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.lightYellow .novelContentPanel{
+    color: #333; /* Text color darkened */
+    background-color: #fdf8e1; /* Dark yellow background */
+  }
+
+/* Add more SCSS to customize fonts, input controls, etc. */

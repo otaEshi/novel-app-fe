@@ -1,0 +1,39 @@
+/* Styles for the carousel container */
+.carouselContainer {
+    position: relative;
+    padding: 20px;
+  }
+  
+  /* Styles for carousel items */
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styles for the indicators */
+  .carouselIndicators {
+    bottom: -30px; // Adjust position as needed
+  }
+  
+  /* Custom styling for carousel control buttons */
+  .carouselControl {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Custom styling for the card */
+  .card {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f9fa; // Light gray background for the card
+  }
+  
+  .cardImage {
+    object-fit: cover;
+    width: 100%;
+    height: 200px; // Ensure all images are the same height
+  }
+  

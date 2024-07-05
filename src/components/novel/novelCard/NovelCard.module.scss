@@ -1,0 +1,13 @@
+/* Custom styles for the novel card */
+.card {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.cardImage {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
