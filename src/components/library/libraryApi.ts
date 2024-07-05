@@ -44,6 +44,7 @@ export const createLibraryList = createAsyncThunk<ILibraryNovelList, ICreateLibr
 
 export const addNovelToList = createAsyncThunk<ILibraryNovelList, IAddNovelToList>(
     "api/library/addNovelToList",
+    // asdfasdfasdf
     async (payload, thunkApi) => {
         const res = await sendRequest(`${BASE_URL}/library/list/novel/add`
             , {
